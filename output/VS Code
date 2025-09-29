@@ -1,0 +1,78 @@
+PS C:\GitHub\AI-Driven-Delivery-Agent> & C:/Users/krish/AppData/Local/Programs/Python/Python312/python.exe c:/GitHub/AI-Driven-Delivery-Agent/output/output_generator.py
+Starting Autonomous Delivery Agent Output Generation
+==================================================
+Maps: ['../maps/small.map', '../maps/medium.map']
+Route: (0, 0) -> (4, 4)
+
+Starting comprehensive output generation...
+Testing ../maps/small.map...
+Testing ../maps/medium.map...
+JSON output saved: output\results\detailed_results.json
+Text report saved: output\reports\performance_report.txt
+Executive summary saved: output\reports\executive_summary.txt
+Execution log saved: output\logs\execution_log.txt
+Example config saved: output\examples\example_config.json
+All outputs generated successfully!
+
+OUTPUT GENERATION COMPLETED!
+Check the 'output' folder for all generated files
+PS C:\GitHub\AI-Driven-Delivery-Agent> python output/run_output_generator.py --maps maps/small.map --start 1,1 --goal 3,3
+🚀 Starting Output Generation
+========================================
+Output Directory: output
+Maps: ['maps/small.map']
+Start: (1, 1)
+Goal: (3, 3)
+
+Starting comprehensive output generation...
+Testing maps/small.map...
+  Running BFS...
+  Running Uniform_Cost...
+  Running A_Star...
+  Running Hill_Climbing...
+  Running Simulated_Annealing...
+JSON output saved: output\results\detailed_results.json
+Text report saved: output\reports\performance_report.txt
+Executive summary saved: output\reports\executive_summary.txt
+Execution log saved: output\logs\execution_log.txt
+Example config saved: output\examples\example_config.json
+All outputs generated successfully!
+
+✅ Output generation completed!
+📁 Check output folder for results
+PS C:\GitHub\AI-Driven-Delivery-Agent> python output/run_output_generator.py --maps maps/medium.map --start 0,0
+ --goal 9,9
+🚀 Starting Output Generation
+========================================
+Output Directory: output
+Maps: ['maps/medium.map']
+Start: (0, 0)
+Goal: (9, 9)
+
+Starting comprehensive output generation...
+Testing maps/medium.map...
+  Running BFS...
+  Running Uniform_Cost...
+  Running A_Star...
+  Running Hill_Climbing...
+  Running Simulated_Annealing...
+JSON output saved: output\results\detailed_results.json
+Text report saved: output\reports\performance_report.txt
+Executive summary saved: output\reports\executive_summary.txt
+Execution log saved: output\logs\execution_log.txt
+Example config saved: output\examples\example_config.json
+All outputs generated successfully!
+
+✅ Output generation completed!
+📁 Check output folder for results
+PS C:\GitHub\AI-Driven-Delivery-Agent> python output/run_output_generator.py --maps maps/small.map maps/medium.map --start 2,2 --goal 8,8
+🚀 Starting Output Generation
+========================================
+Output Directory: output
+Maps: ['maps/small.map', 'maps/medium.map']
+Start: (2, 2)
+Goal: (8, 8)
+
+Starting comprehensive output generation...
+Testing maps/small.map...
+  Running BFS...
