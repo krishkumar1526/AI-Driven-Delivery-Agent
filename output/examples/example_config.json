@@ -1,0 +1,28 @@
+{
+  "description": "Example configuration for Autonomous Delivery Agent",
+  "maps": [
+    "maps/small.map",
+    "maps/medium.map"
+  ],
+  "start_position": [
+    0,
+    0
+  ],
+  "goal_position": [
+    4,
+    4
+  ],
+  "algorithms": [
+    "BFS",
+    "Uniform_Cost",
+    "A_Star",
+    "Hill_Climbing",
+    "Simulated_Annealing"
+  ],
+  "output_format": [
+    "json",
+    "text",
+    "summary",
+    "log"
+  ]
+}

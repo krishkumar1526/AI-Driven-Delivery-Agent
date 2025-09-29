@@ -1,0 +1,28 @@
+======================================================================
+AUTONOMOUS DELIVERY AGENT - COMPREHENSIVE PERFORMANCE REPORT
+======================================================================
+Generated: 2025-09-29 21:19:24
+
+EXPERIMENT SETUP
+--------------------------------------------------
+Project: Autonomous Delivery Agent v1.0
+Start Position: (0, 0)
+Goal Position: (4, 4)
+Maps Tested: 1
+
+MAP: maps/small.map (5x5)
+--------------------------------------------------
+Algorithm            Status     Cost     Steps  Nodes    Time(ms)   Efficiency
+----------------------------------------------------------------------
+BFS                  SUCCESS    8        9      56       0.0        6.22
+Uniform_Cost         SUCCESS    8        9      54       3.617      6.0
+A_Star               SUCCESS    8        9      15       0.0        1.67
+Hill_Climbing        SUCCESS    3        4      115      2.01       28.75
+Simulated_Annealing  SUCCESS    1        2      405      29.88      202.5
+
+BEST PERFORMER: A_Star
+
+OVERALL PERFORMANCE ANALYSIS
+--------------------------------------------------
+Fastest Algorithm: BFS (0.0ms)
+Most Efficient: A_Star (15 nodes)
