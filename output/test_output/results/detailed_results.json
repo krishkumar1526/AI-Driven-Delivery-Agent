@@ -1,0 +1,33 @@
+{
+  "project": "Autonomous Delivery Agent",
+  "generated_at": "2025-09-29T20:31:40.349679",
+  "results": {
+    "metadata": {
+      "project": "Autonomous Delivery Agent",
+      "timestamp": "2025-09-29T20:31:40.349679",
+      "version": "1.0",
+      "maps_tested": [
+        "../maps/small.map"
+      ],
+      "start_position": [
+        0,
+        0
+      ],
+      "goal_position": [
+        4,
+        4
+      ]
+    },
+    "experiments": {
+      "../maps/small.map": {
+        "map_info": {
+          "filename": "../maps/small.map",
+          "size": "5x5",
+          "width": 5,
+          "height": 5
+        },
+        "algorithms": {
+          "BFS": {
+            "path_found": true,
+            "path_length": 9,
+            "path_cost": 
